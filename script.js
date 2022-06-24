@@ -15,11 +15,15 @@ const email = (prompt("Inserisci la tua email"))
 
 const emailList = ['aldo@email.it', 'carlo@email.it', 'elena@email.it', 'federico@email.it', 'mario@email.it', 'mimmo@email.it']
 
+let messaggio = "spiacenti"
 
-for (let i = 0; i < emailList.lenght; i++) {
-    if (email == emailList[i] ) {console.log("benvenuto")}
-    else { console.log("spiacenti")}
+for (let i = 0; i < emailList.length; i++) 
+{if (email === emailList[i] ) {
+   messaggio= "benvenuto"
+}
+    
 
     
 }
 
+console.log (messaggio)
