@@ -17,8 +17,8 @@ const emailList = ['aldo@email.it', 'carlo@email.it', 'elena@email.it', 'federic
 
 
 for (let i = 0; i < emailList.lenght; i++) {
-    if (email == emailList ) {console.log("la tua email è corretta")}
-    else { console.log("la tua email è sbagliata") }
+    if (email == emailList[i] ) {console.log("benvenuto")}
+    else { console.log("spiacenti")}
 
     
 }
